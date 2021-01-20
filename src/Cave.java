@@ -22,6 +22,11 @@ public class Cave {
         System.out.println("Sage: I happen to be one of them, but I do not wish to fight, let me help you escape...");
         SageChoice.sageChoice();
         System.out.println("Sage: you fool, if you wish to die then come at me!");
+        System.out.println("You have now entered a boss fight.");
+        SageBoss.sage();
+        System.out.println("You've beaten the old sage, congratulations!");
+        System.out.println("The only was to move is forward...");
+        System.out.println("You keep walking and see a rope leading up and a ladder leading down...");
     }
 
 
