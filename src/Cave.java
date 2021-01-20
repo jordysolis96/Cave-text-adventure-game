@@ -25,8 +25,9 @@ public class Cave {
         System.out.println("You have now entered a boss fight.");
         SageBoss.sage();
         System.out.println("You've beaten the old sage, congratulations!");
-        System.out.println("The only was to move is forward...");
+        System.out.println("The only way to move is forward...");
         System.out.println("You keep walking and see a rope leading up and a ladder leading down...");
+        upOrDown.RopeOrLadder();
     }
 
 
@@ -41,7 +42,7 @@ public class Cave {
         if (choice == 1) {
             System.out.println("The goblin parried your attack! you've now been stabbed to death...");
             System.out.println("GAME OVER");
-            System.exit(0);
+            respawn();
         } else if (choice == 2) {
             System.out.println("The stick penetrated his fragile skin!");
             System.out.println("You've also collected a dagger from his pocket...");
@@ -49,13 +50,32 @@ public class Cave {
         } else if (choice == 3) {
             System.out.println("The goblin doges and stabs you with a dagger!");
             System.out.println("GAME OVER");
-            System.exit(0);
+            respawn();
         } else if (choice == 4) {
             System.out.println("The lighter won't reach from here, try a different option.");
             goblinBossFight();
         } else {
             System.out.println("invalid input");
             goblinBossFight();
+        }
+    }
+    public static void respawn(){
+        Scanner choice = new Scanner(System.in);
+        System.out.println("would you like to retry?");
+        System.out.println(1 + ": last check point");
+        System.out.println(2 + ": restart game");
+        System.out.println(3 + ": exit");
+        int respawn = choice.nextInt();
+        if(respawn == 1){
+            goblinBossFight();
+        }else if(respawn == 2){
+            Cave.game();
+        }else if(respawn == 3){
+            System.out.println("See Ya!");
+            System.exit(0);
+        }else{
+            System.out.println("invalid input");
+            respawn();
         }
     }
 }

@@ -15,13 +15,29 @@ public class SageChoice {
             System.out.println("Sage: Very well");
             System.out.println("Sage: VOOSH");
             System.out.println("Congrats, you have achieved ending 1... GAME OVER, you win!");
-            System.exit(0);
+            newGame();
         }else if(Choice == 2){
-            System.out.println("You take a fighting stanc!");
+            System.out.println("You take a fighting stance!");
             System.out.println();
         }else{
             System.out.println("invalid input");
             sageChoice();
+        }
+    }
+    public static void newGame(){
+        Scanner choice = new Scanner(System.in);
+        System.out.println("What would you like to do now?");
+        System.out.println(1 + ": Start new game");
+        System.out.println(2 + ": exit our of game");
+        int Choice = choice.nextInt();
+        if(Choice == 1){
+            Cave.game();
+        }else if(Choice == 2){
+            System.out.println("See Ya!");
+            System.exit(0);
+        }else{
+            System.out.println("invalid input");
+            newGame();
         }
     }
 }
