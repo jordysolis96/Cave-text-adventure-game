@@ -36,6 +36,10 @@ public class Cave {
         System.out.println("There seems to be a door further down the cave...");
         System.out.println("To the left there seems to be a dragon... wounded and laying on its side");
         DoorOrDragon.decision();
+        System.out.println();
+        System.out.println("You walk out of the room through a narrow path you find.");
+        System.out.println("Theres a unstable bridge you cross... one wrong step and you're toast...");
+        System.out.println("You make it across and find a note");
     }
 
 

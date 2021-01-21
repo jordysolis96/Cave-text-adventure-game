@@ -23,6 +23,7 @@ public class TheNamelessChampion {
         if(dodge == 1){
             System.out.println("The champion quickly draws his spear and stabs you to death!");
             System.out.println("Game over");
+            respawn();
         }else if(dodge == 2){
             System.out.println("You picked up a sword and slice his ankles!");
             System.out.println("This lowers him enough for you to pierce is heart!");
@@ -33,6 +34,25 @@ public class TheNamelessChampion {
         }else{
             System.out.println("invalid input");
             fight();
+        }
+    }
+    public static void respawn() {
+        Scanner choice = new Scanner(System.in);
+        System.out.println("would you like to retry?");
+        System.out.println(1 + ": last check point");
+        System.out.println(2 + ": restart game");
+        System.out.println(3 + ": exit");
+        int respawn = choice.nextInt();
+        if (respawn == 1) {
+            NamelessChampion();
+        } else if (respawn == 2) {
+            Cave.game();
+        } else if (respawn == 3) {
+            System.out.println("See Ya!");
+            System.exit(0);
+        } else {
+            System.out.println("invalid input");
+            respawn();
         }
     }
 }
