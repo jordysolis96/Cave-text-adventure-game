@@ -34,17 +34,25 @@ public class SerpentBossFight {
             respawn();
         }else if(choice == 3){
             System.out.println("The knife does nothing to the large serpent...");
-            System.out.println("It smacks you with it's tail and you splatter on the wall to your death");
+            System.out.println("It smacks you with it's tail and you splatter on the wall to your death!");
             System.out.println("Game over!");
             respawn();
         }else if(choice == 4){
-            System.out.println("Sage: Ahh you bastard, you haven't a clue of what you are doing!");
-            System.out.println("The old sage burned to death");
-            System.out.println("You collected a magic staff.");
-            System.out.println();
+            System.out.println("It swerves to the left and eats you!");
+            System.out.println("Game over");
+            respawn();
         }else if(choice == 5){
-            System.out.println("maybe a dagger isn't the best idea...");
-            System.out.println("Try something else");
+            System.out.println("The Serpent crushes you to death");
+            System.out.println("Game Over");
+            respawn();
+        }else if(choice == 6){
+            System.out.println("You use the staff and to your luck it burns the Serpent!");
+            System.out.println("You collected a pouch of explosives.");
+        }else if(choice == 7){
+            System.out.println("The rope won't work...");
+            Serpent();
+        }else if(choice == 8){
+            System.out.println("You can't out run a Serpent..");
             Serpent();
         }else{
             System.out.println("invalid input");
