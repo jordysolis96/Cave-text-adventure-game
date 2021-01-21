@@ -30,6 +30,11 @@ public class Cave {
         upOrDown.RopeOrLadder();
         System.out.println("You Keep walking forward and hear a hiss, it's a large serpent!");
         System.out.println("It quickly slithers toward you!");
+        SerpentBossFight.Serpent();
+        System.out.println("Congrats on beating the serpent!");
+        System.out.println();
+        System.out.println("There seems to be a door further down the cave...");
+        System.out.println("To the left there seems to be a dragon... wounded and laying on its side");
 
     }
 
