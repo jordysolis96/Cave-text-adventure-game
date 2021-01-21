@@ -35,7 +35,7 @@ public class Cave {
         System.out.println();
         System.out.println("There seems to be a door further down the cave...");
         System.out.println("To the left there seems to be a dragon... wounded and laying on its side");
-
+        DoorOrDragon.decision();
     }
 
 

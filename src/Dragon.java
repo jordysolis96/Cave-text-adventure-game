@@ -13,7 +13,7 @@ public class Dragon {
             System.out.println("Congrats, you have achieved ending 2... GAME OVER, you win!");
             newGame();
         }else if(Choice == 2){
-
+            TheNamelessChampion.NamelessChampion();
         }else{
             System.out.println("Invalid input");
             dragon();

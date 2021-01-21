@@ -8,7 +8,7 @@ public class DoorOrDragon {
         System.out.println(2 + ": Go to the wounded dragon");
         int choice = Choice.nextInt();
         if(choice == 1){
-
+            TheNamelessChampion.NamelessChampion();
         }else if(choice == 2){
             Dragon.dragon();
         }else{
