@@ -28,6 +28,9 @@ public class Cave {
         System.out.println("The only way to move is forward...");
         System.out.println("You keep walking and see a rope leading up and a ladder leading down...");
         upOrDown.RopeOrLadder();
+        System.out.println("You Keep walking forward and hear a hiss, it's a large serpent!");
+        System.out.println("It quickly slithers toward you!");
+
     }
 
 
