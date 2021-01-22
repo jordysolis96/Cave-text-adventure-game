@@ -44,10 +44,18 @@ public class Cave {
         System.out.println("You see a hint of fire...");
         System.out.println("You walk around the corner and see a fire king demon!");
         FireKingDemon.FireDemon();
-        System.out.println("Wife: Honey wake up");
-        System.out.println("Me: Sorry I just had strange dream...");
-        System.out.println("Congratulations you beat the cave!");
-        endchoice();
+        System.out.println("You continue walking but the floor starts to feel really sticky and wet");
+        System.out.println("You turn on you lighter");
+        System.out.println("There a huge slime with shields covering its body...");
+        System.out.println("It attempts to throw liquid slime balls at you but you dodge out the way.");
+        System.out.println("One touch of that and you'll burn to death");
+        System.out.println("You're now in a boss fight!");
+        Theslime.slime();
+        System.out.println();
+//        System.out.println("Wife: Honey wake up");
+//        System.out.println("Me: Sorry I just had strange dream...");
+//        System.out.println("Congratulations you beat the cave!");
+//        endchoice();
     }
 
 
