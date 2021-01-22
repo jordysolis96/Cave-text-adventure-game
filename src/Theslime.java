@@ -18,32 +18,30 @@ public class Theslime {
             System.out.println("Game Over!");
             respawn();
         }else if(choice == 2){
-            System.out.println("A stick won't work, you got slapped to death!");
+            System.out.println("A stick won't work, you got burned to death!");
             System.out.println("Game over!");
             respawn();
         }else if(choice == 3){
-            System.out.println("The knife won't penetrate the kings rough skin, you get stomped to death.");
-            System.out.println("Game over!");
-            respawn();
+            System.out.println("The knife won't work, try something else.");
+            slime();
         }else if(choice == 4){
-            System.out.println("You get slammed to death!");
-            System.out.println("Game over");
-            respawn();
+            System.out.println("You can't throw that, it's your light source! Try something else.");
+            slime();
         }else if(choice == 5){
-            System.out.println("The king crushes you to death");
+            System.out.println("The slime jumps on you and devours you!");
             System.out.println("Game Over");
             respawn();
         }else if(choice == 6){
-            System.out.println("You get crushed to death!");
+            System.out.println("Your staff ran out of magic... the slime burns you to death!");
             System.out.println("Game over!");
             respawn();
         }else if(choice == 7){
             System.out.println("You throw the explosive and it blows the slime to bits!");
             System.out.println("Congrats on beating the slime!");
-            System.out.println("It looks like your rope burned in the process...");
+            System.out.println("Keep in mind you no longer have an explosive anymore, but you have collected the slimes shield");
         }else if(choice == 8){
-            System.out.println("That won't work, you get mauled to death");
-            respawn();
+            System.out.println("The Sword is not very helpful, try something else...");
+            slime();
         }else{
             System.out.println("invalid input");
             slime();

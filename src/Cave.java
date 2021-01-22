@@ -52,6 +52,12 @@ public class Cave {
         System.out.println("You're now in a boss fight!");
         Theslime.slime();
         System.out.println();
+        System.out.println("You see a rope going up and path going forward");
+        //add a option where they go up or down, up means enemies cut the rope and kills you, forward takes you to next boss
+
+
+        System.out.println("You exit the dark area and approach the complete opposite...");
+        System.out.println("You enter an area with a lot of lighting, its looks and sounds like electricity!");
 //        System.out.println("Wife: Honey wake up");
 //        System.out.println("Me: Sorry I just had strange dream...");
 //        System.out.println("Congratulations you beat the cave!");
