@@ -40,6 +40,9 @@ public class Cave {
         System.out.println("You walk out of the room through a narrow path you find.");
         System.out.println("Theres a unstable bridge you cross... one wrong step and you're toast...");
         System.out.println("You make it across and find a note");
+        System.out.println("note: You're half way out of the cave...");
+        System.out.println("You see a hint of fire...");
+        System.out.println("You walk around the corner and see a fire king demon!");
     }
 
 
