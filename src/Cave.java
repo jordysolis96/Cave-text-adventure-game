@@ -43,6 +43,11 @@ public class Cave {
         System.out.println("note: You're half way out of the cave...");
         System.out.println("You see a hint of fire...");
         System.out.println("You walk around the corner and see a fire king demon!");
+        FireKingDemon.FireDemon();
+        System.out.println("Wife: Honey wake up");
+        System.out.println("Me: Sorry I just had strange dream...");
+        System.out.println("Congratulations you beat the cave!");
+        endchoice();
     }
 
 
@@ -91,6 +96,22 @@ public class Cave {
         }else{
             System.out.println("invalid input");
             respawn();
+        }
+    }
+    public static void endchoice(){
+        Scanner decision = new Scanner(System.in);
+        System.out.println("What will you do now?");
+        System.out.println(1 + ": Play again");
+        System.out.println(2 + ": Exit");
+        int choice = decision.nextInt();
+        if (choice == 1){
+            game();
+        }else if(choice == 2) {
+            System.out.println("See ya!");
+            System.exit(0);
+        }else{
+            System.out.println("invalid input");
+            endchoice();
         }
     }
 }
