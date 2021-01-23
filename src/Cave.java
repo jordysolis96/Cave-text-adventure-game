@@ -65,6 +65,12 @@ public class Cave {
         System.out.println("The giant octopus destroys your stick by moving straight past it!");
         System.out.println("It's coming fast, you must fight it!");
         OctopusBattle.Octupus();
+        System.out.println("You get out the water and make it across!");
+        System.out.println("You find a hidden passage on the wall and keep moving forward!");
+        System.out.println("As you're walking you see a gargoyle, it starts following you...");
+        System.out.println("Every time you look at it, the gargoyle stops moving... but it's obvious that it's following you.");
+        System.out.println("No statue just randomly moves on its own...");
+        //add gargoyle boss fight
 
 
         System.out.println("You exit the dark area and approach the complete opposite...");
