@@ -57,6 +57,7 @@ public class Cave {
         System.out.println();
         System.out.println("You can finally see the cave starting to light up!");
         System.out.println("You must be getting closer to escaping.");
+        System.out.println("You keep walking.");
         System.out.println("You reach a dead end..");
         System.out.println("You have to swim across a pool of water to get across...");
         System.out.println("You get in the water anf start swimming... but something seems off...");
@@ -78,9 +79,12 @@ public class Cave {
         System.out.println("You continue to make your way out the cave.");
         System.out.println("You see two doors...");
         System.out.println("One to your left, and one to your right.");
-
-
-
+        Doors.doors();
+        System.out.println();
+        System.out.println("The room has a lot of mist in it...");
+        System.out.println("You can't see very well but you can tell something else is in the room with you...");
+        //next boss yet to be decided
+        //the boss after is an electric boss
         System.out.println("You exit the dark area and approach the complete opposite...");
         System.out.println("You enter an area with a lot of lighting, its looks and sounds like electricity!");
 //        System.out.println("Wife: Honey wake up");
