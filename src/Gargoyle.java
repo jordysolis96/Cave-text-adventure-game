@@ -14,15 +14,18 @@ public class Gargoyle {
         if(choice == 1){
             System.out.println("The gargoyle snaps your axe and stabs you with your half broken axe!");
             System.out.println("Game Over!");
+            respawn();
         }else if(choice == 2){
             System.out.println("The knife does little to no damage, the gargoyle chops your head off...");
             System.out.println("Game over!");
+            respawn();
         }else if(choice == 3){
             System.out.println("That won't work.");
             gargoyle();
         }else if(choice == 4){
             System.out.println("The dagger snaps in half, the gargoyle chops your head off...");
             System.out.println("Game over!");
+            respawn();
         }else if(choice == 5){
             System.out.println("That won't work...");
             gargoyle();
@@ -33,6 +36,25 @@ public class Gargoyle {
         }else{
             System.out.println("Invalid input");
             gargoyle();
+        }
+    }
+    public static void respawn() {
+        Scanner choice = new Scanner(System.in);
+        System.out.println("would you like to retry?");
+        System.out.println(1 + ": last check point");
+        System.out.println(2 + ": restart game");
+        System.out.println(3 + ": exit");
+        int respawn = choice.nextInt();
+        if (respawn == 1) {
+            gargoyle();
+        } else if (respawn == 2) {
+            Cave.game();
+        } else if (respawn == 3) {
+            System.out.println("See Ya!");
+            System.exit(0);
+        } else {
+            System.out.println("invalid input");
+            respawn();
         }
     }
 }
