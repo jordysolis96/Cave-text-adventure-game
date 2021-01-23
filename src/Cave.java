@@ -70,6 +70,10 @@ public class Cave {
         System.out.println("As you're walking you see a gargoyle, it starts following you...");
         System.out.println("Every time you look at it, the gargoyle stops moving... but it's obvious that it's following you.");
         System.out.println("No statue just randomly moves on its own...");
+        System.out.println("The tension thickens... You turn around once more...");
+        System.out.println("THE gargoyle slowly has its eyes turn red, it draws stone sword!");
+        System.out.println("You have now entered a boss fight!");
+        Gargoyle.gargoyle();
         //add gargoyle boss fight
 
 
