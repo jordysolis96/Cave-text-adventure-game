@@ -53,7 +53,7 @@ public class Cave {
         Theslime.slime();
         System.out.println();
         System.out.println("You see a rope going up and path going forward");
-        //add a option where they go up or down, up means enemies cut the rope and kills you, forward takes you to next boss
+        ForwardOrUp.fowardOrUp();
 
 
         System.out.println("You exit the dark area and approach the complete opposite...");
