@@ -74,7 +74,11 @@ public class Cave {
         System.out.println("THE gargoyle slowly has its eyes turn red, it draws stone sword!");
         System.out.println("You have now entered a boss fight!");
         Gargoyle.gargoyle();
-        //add gargoyle boss fight
+        System.out.println();
+        System.out.println("You continue to make your way out the cave.");
+        System.out.println("You see two doors...");
+        System.out.println("One to your left, and one to your right.");
+
 
 
         System.out.println("You exit the dark area and approach the complete opposite...");
