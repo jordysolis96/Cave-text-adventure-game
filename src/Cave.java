@@ -54,6 +54,17 @@ public class Cave {
         System.out.println();
         System.out.println("You see a rope going up and path going forward");
         ForwardOrUp.fowardOrUp();
+        System.out.println();
+        System.out.println("You can finally see the cave starting to light up!");
+        System.out.println("You must be getting closer to escaping.");
+        System.out.println("You reach a dead end..");
+        System.out.println("You have to swim across a pool of water to get across...");
+        System.out.println("You get in the water anf start swimming... but something seems off...");
+        System.out.println("It's a huge octopus!");
+        System.out.println("It dashes towards you and you throw you stick... it doesn't travel far in water...");
+        System.out.println("The giant octopus destroys your stick by moving straight past it!");
+        System.out.println("It's coming fast, you must fight it!");
+        OctopusBattle.Octupus();
 
 
         System.out.println("You exit the dark area and approach the complete opposite...");
