@@ -9,8 +9,8 @@ public class ForwardOrUp {
         System.out.println(2 + ": walk forward.");
         int Choice = choice.nextInt();
         if(Choice == 1){
-            System.out.println("The goblins cut your rope and you fall to your death!");
-            System.out.println("Game Ovaer!");
+            System.out.println("Goblins cut your rope and you fall to your death!");
+            System.out.println("Game Over!");
             respawn();
         }else if(Choice == 2){
             System.out.println("Yeah that rope looked suspicious anyways...");

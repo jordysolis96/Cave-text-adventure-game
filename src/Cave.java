@@ -90,8 +90,9 @@ public class Cave {
         System.out.println("You continue walking...");
         System.out.println("There's a mine cart that leads to a room for of electricity...");
         System.out.println("There's also a door directly in front of you, although it feels kind of hot...");
-
-        //next boss yet to be decided
+        CartOrDoor.cartOrDoor();
+        System.out.println("You get out of the mine cart.");
+        System.out.println("Directly afterwards a bolt a lighting zaps the mine cart into pieces...");
         //the boss after is an electric boss
         System.out.println("You exit the dark area and approach the complete opposite...");
         System.out.println("You enter an area with a lot of lighting, its looks and sounds like electricity!");
