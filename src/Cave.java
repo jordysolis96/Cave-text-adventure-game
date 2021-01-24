@@ -83,6 +83,10 @@ public class Cave {
         System.out.println();
         System.out.println("The room has a lot of mist in it...");
         System.out.println("You can't see very well but you can tell something else is in the room with you...");
+        System.out.println("Out of the mist you see a man appear, but he seems to be mixed with a fox.");
+        System.out.println("It dashes straight passed you and almost bit you... it's ridiculously fast.");
+        System.out.println("You'll have to fight your way out of this one...");
+
         //next boss yet to be decided
         //the boss after is an electric boss
         System.out.println("You exit the dark area and approach the complete opposite...");
