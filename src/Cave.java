@@ -86,6 +86,10 @@ public class Cave {
         System.out.println("Out of the mist you see a man appear, but he seems to be mixed with a fox.");
         System.out.println("It dashes straight passed you and almost bit you... it's ridiculously fast.");
         System.out.println("You'll have to fight your way out of this one...");
+        HalfHumanHalfFox.foxBoss();
+        System.out.println("You continue walking...");
+        System.out.println("There's a mine cart that leads to a room for of electricity...");
+        System.out.println("There's also a door directly in front of you, although it feels kind of hot...");
 
         //next boss yet to be decided
         //the boss after is an electric boss
