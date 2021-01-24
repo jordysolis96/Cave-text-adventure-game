@@ -9,7 +9,28 @@ public class HalfHumanHalfFox {
         System.out.println(3 + ": lighter");
         System.out.println(4 + ": dagger");
         System.out.println(5 + ": Magic staff");
-        System.out.println(6 + ": Use sword");
         int choice = Choice.nextInt();
+        if(choice == 1){
+            System.out.println("The fox was too quick... it scratched your head off!");
+            System.out.println("Game over!");
+        }else if(choice == 2){
+            System.out.println("The knife slashes the air, meanwhile the fox slashes your heart open...");
+            System.out.println("Game over!");
+        }else if(choice == 3){
+            System.out.println("That won't work");
+            foxBoss();
+        }else if(choice == 4){
+            System.out.println("The fox stabs you to death!");
+            System.out.println("Game over!");
+        }else if(choice == 5){
+            System.out.println("You try the long ranged attack and it works!");
+            System.out.println("The magic staff releases a soul arrow and goes straight through the fox!");
+            System.out.println("The fox reverts back into a human completely and you notice a pouch of berries...");
+            System.out.println("You collect the pouch of berries.");
+            System.out.println();
+        }else{
+            System.out.println("invalid input");
+            System.exit(0);
+        }
     }
 }
