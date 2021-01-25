@@ -108,6 +108,10 @@ public class Cave {
         System.out.println("Mad scientist: Cut you a deal...");
         System.out.println("Mad scientist: Let me have the sack of berries and i'll show you the way out of this dump!");
         System.out.println("Mad scientist: What do you say?");
+        System.out.println();
+        GiveOrKeep.giveOrKeep();
+        System.out.println("The scientist attempt to steal your berries!");
+        System.out.println("Mad scientist: fine... if you don't want to give them to me, i'll just kill you for them!");
         //the boss after is an electric boss
 //        System.out.println("Wife: Honey wake up");
 //        System.out.println("Me: Sorry I just had strange dream...");
