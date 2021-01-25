@@ -101,10 +101,14 @@ public class Cave {
         System.out.println("Mad scientist: attack my minions!");
         System.out.println("The three minions rush you!");
         System.out.println("You are now in a boss fight.");
-
+        TheThreeMinions.TheThree();
+        System.out.println("Mad scientist: I see... very impressive.");
+        System.out.println("Mad scientist: Those berries are very useful...");
+        System.out.println("Mad scientist: I want to have them for my own research purposes!");
+        System.out.println("Mad scientist: Cut you a deal...");
+        System.out.println("Mad scientist: Let me have the sack of berries and i'll show you the way out of this dump!");
+        System.out.println("Mad scientist: What do you say?");
         //the boss after is an electric boss
-        System.out.println("You exit the dark area and approach the complete opposite...");
-        System.out.println("You enter an area with a lot of lighting, its looks and sounds like electricity!");
 //        System.out.println("Wife: Honey wake up");
 //        System.out.println("Me: Sorry I just had strange dream...");
 //        System.out.println("Congratulations you beat the cave!");
