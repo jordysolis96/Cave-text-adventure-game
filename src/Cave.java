@@ -93,6 +93,15 @@ public class Cave {
         CartOrDoor.cartOrDoor();
         System.out.println("You get out of the mine cart.");
         System.out.println("Directly afterwards a bolt a lighting zaps the mine cart into pieces...");
+        System.out.println("There's a mad scientist right in front of you!");
+        System.out.println("He has a lot of electrical weapon at his disposal.");
+        System.out.println("Mad scientist: Hello there, you look like you'd make a fine test subject. LET ME TAKE YOUR BODY!");
+        System.out.println("The mad scientist opens three crates... out of them come out three bodies.");
+        System.out.println("Each body has a chip anf look technically advanced...");
+        System.out.println("Mad scientist: attack my minions!");
+        System.out.println("The three minions rush you!");
+        System.out.println("You are now in a boss fight.");
+
         //the boss after is an electric boss
         System.out.println("You exit the dark area and approach the complete opposite...");
         System.out.println("You enter an area with a lot of lighting, its looks and sounds like electricity!");
