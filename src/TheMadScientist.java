@@ -15,12 +15,14 @@ public class TheMadScientist {
         if(choice == 1){
             System.out.println("The wizard zaps you to death as you charge towards him.");
             System.out.println("Game over!");
+            respawn();
         } else if(choice == 2) {
             System.out.println("That won't reach...");
             ScientistBoss();
         }else if(choice == 3) {
             System.out.println("The scientist pulls out a zap gun and zaps you into dust!");
             System.out.println("Game Over!");
+            respawn();
         }else if(choice == 4) {
             System.out.println("You throw and the dagger at the scientists head!");
             System.out.println("He seems to have made modifications to his own body, you struck at piece of tech in his head!");
@@ -30,14 +32,35 @@ public class TheMadScientist {
             System.out.println("Mad Scientist: HAHAHA I've dealt with magic before!");
             System.out.println("The scientist pulls out a shield and deflects your blast right back at you!");
             System.out.println("Game Over");
+            respawn();
         }else if(choice == 6){
             System.out.println("You eat the berry but it doesn't do anything, you have to wait longer before you can eat it again");
             System.out.println("Mad Scientist: How tragic... now die...");
             System.out.println("The scientist electrifies you to death!");
             System.out.println("Game over");
+            respawn();
         }else{
             System.out.println("Invalid input");
             ScientistBoss();
+        }
+    }
+    public static void respawn() {
+        Scanner choice = new Scanner(System.in);
+        System.out.println("would you like to retry?");
+        System.out.println(1 + ": last check point");
+        System.out.println(2 + ": restart game");
+        System.out.println(3 + ": exit");
+        int respawn = choice.nextInt();
+        if (respawn == 1) {
+            ScientistBoss();
+        } else if (respawn == 2) {
+            Cave.game();
+        } else if (respawn == 3) {
+            System.out.println("See Ya!");
+            System.exit(0);
+        } else {
+            System.out.println("invalid input");
+            respawn();
         }
     }
 }
