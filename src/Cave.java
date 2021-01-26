@@ -113,8 +113,9 @@ public class Cave {
         System.out.println("The scientist attempt to steal your berries!");
         System.out.println("Mad scientist: fine... if you don't want to give them to me, i'll just kill you for them!");
         System.out.println("The scientist tries to kill you with his crafted electrical weapons.");
+        TheMadScientist.ScientistBoss();
+        System.out.println();
 
-        //the boss after is an electric boss
 //        System.out.println("Wife: Honey wake up");
 //        System.out.println("Me: Sorry I just had strange dream...");
 //        System.out.println("Congratulations you beat the cave!");
