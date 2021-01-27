@@ -117,6 +117,10 @@ public class Cave {
         System.out.println();
         System.out.println("There's a gun that the scientist dropped.");
         System.out.println("It looks powerful, but something seems off...");
+        Gun.gun();
+        System.out.println("It looks like theres a elevator, it looks very old");
+        System.out.println("There's a lever, it look like it can be pulled towards you, pushed forward, and pushed left or right");
+        System.out.println("But at the moment it can only pulled and pushed away...");
 
         //add another choice option
         //the old king boss fight(final boss) next
