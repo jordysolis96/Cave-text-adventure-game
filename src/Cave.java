@@ -115,6 +115,10 @@ public class Cave {
         System.out.println("The scientist tries to kill you with his crafted electrical weapons.");
         TheMadScientist.ScientistBoss();
         System.out.println();
+        System.out.println("There's a gun that the scientist dropped.");
+        System.out.println("It looks powerful, but something seems off...");
+
+        //add another choice option
         //the old king boss fight(final boss) next
 
 //        System.out.println("Wife: Honey wake up");
