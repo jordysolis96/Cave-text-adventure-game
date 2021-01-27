@@ -124,6 +124,7 @@ public class Cave {
         pushOrPull.PushOrPull();
         System.out.println();
         System.out.println("You come to a stop, this time the lever will only go left or right...");
+
         //add left or right
         //add another choice option
         //the old king boss fight(final boss) next

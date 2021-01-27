@@ -12,12 +12,12 @@ public class pushOrPull {
             System.out.println("It lifts you upwards.");
         }else if(choice == 2){
             System.out.println("You pull the lever...");
-            System.out.println("It goes downwards but it's going kinda quick");
-            System.out.println("It goes faster and faster and when it reaches the ground the impact kills you");
+            System.out.println("It goes downwards but it's going kinda quick.");
+            System.out.println("It goes faster and faster and when it reaches the ground the impact kills you!");
             System.out.println("Game over!");
             respawn();
         }else{
-            System.out.println("Invalid input");
+            System.out.println("Invalid input.");
             PushOrPull();
         }
     }
