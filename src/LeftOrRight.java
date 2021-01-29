@@ -13,7 +13,9 @@ public class LeftOrRight {
             System.out.println("You fall to your death!");
             System.out.println("Game Over!");
         }else if(choice == 2){
-
+            System.out.println("You move to the right.");
+            System.out.println("Eventually you come to a stop.");
+            System.out.println("You exit the elevator and you walk into an empty room...");
         }
     }
 }
