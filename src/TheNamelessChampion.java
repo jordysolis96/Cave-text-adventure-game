@@ -6,12 +6,12 @@ public class TheNamelessChampion {
         Scanner choice = new Scanner(System.in);
         System.out.println("You walk to the door and push it with all your strength.");
         System.out.println("That door was clearly designed for a giant...");
-        System.out.println("You walk through the doors and see that the layout looks like an arena");
-        System.out.println("The Nameless Champion: I see... another worthless contender");
+        System.out.println("You walk through the doors and see that the layout looks like an arena.");
+        System.out.println("The Nameless Champion: Oh dear, another dogged contender.");
         System.out.println("You turn around and see a large giant with armor");
-        System.out.println("The Nameless Champion: Mind you the mantle of champion means nothing to me");
-        System.out.println("The Nameless Champion: The title I hold... let it all fade into nothing");
-        System.out.println("The Nameless Champion: I only wish for a good fight!");
+        System.out.println("The Nameless Champion: Mind you the mantle of champion interests me none.");
+        System.out.println("The Nameless Champion: The title I hold, the journey you've been through... let it all fade into nothing.");
+        System.out.println("The Nameless Champion: You've done quite enough, now have your rest.");
         System.out.println("The Champion charges towards you!");
         fight();
     }

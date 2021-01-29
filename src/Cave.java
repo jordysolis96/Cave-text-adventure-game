@@ -134,7 +134,8 @@ public class Cave {
         System.out.println("You'll have to fight foather for that, that is of course you can make it past us...");
         System.out.println("Anyways, what do you say? Will you join under the king?");
         join.Join();
-        //add the choice to join under the king or not
+        System.out.println("The twin princes: Then I guess we have no option but to kill you where you stand.");
+        System.out.println("The twin princes: Brace yourself!");
         //add another choice option
         //the old king boss fight(final boss) next
 

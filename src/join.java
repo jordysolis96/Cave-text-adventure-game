@@ -13,7 +13,7 @@ public class join {
             System.out.println("Congratulations! You have reached ending 3!");
             endchoice();
         }else if(choice == 2){
-            System.out.println("The twin princes:A poor choice you have made...");
+            System.out.println("The twin princes:I see, a poor choice you have made...");
         }
     }
     public static void endchoice(){
