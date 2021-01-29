@@ -133,6 +133,7 @@ public class Cave {
         System.out.println("deny this offer and leave, because any furhter action will be looked at as you trying to take over the thrown...");
         System.out.println("You'll have to fight foather for that, that is of course you can make it past us...");
         System.out.println("Anyways, what do you say? Will you join under the king?");
+
         //add the choice to join under the king or not
         //add another choice option
         //the old king boss fight(final boss) next
