@@ -10,6 +10,7 @@ public class LeftOrRight {
         if(choice == 1){
             System.out.println("The elevator moves to the left...");
             System.out.println("It comes to a sudden stop. You hear something snap...");
+            System.out.println("The wire attached to the elevator snapped! There isn't much you can do now...");
             System.out.println("You fall to your death!");
             System.out.println("Game Over!");
             respawn();
