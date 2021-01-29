@@ -125,7 +125,14 @@ public class Cave {
         System.out.println();
         System.out.println("You come to a stop, this time the lever will only go left or right...");
         LeftOrRight.leftOrRight();
-        System.out.println("The twin princes: ");
+        System.out.println("The only thing in this blank white room is the seats of the princes.");
+        System.out.println("The twin princes: The king is on the other side of this door.");
+        System.out.println("King of the cave might seem like an ugly title, but the power father holds shouldn't be taken so lightly.");
+        System.out.println("Father has been watching you, he'd like to join forces...");
+        System.out.println("He wishes for you to join under him as a royal guard.");
+        System.out.println("deny this offer and leave, because any furhter action will be looked at as you trying to take over the thrown...");
+        System.out.println("You'll have to fight foather for that, that is of course you can make it past us...");
+        System.out.println("Anyways, what do you say? Will you join under the king?");
         //add left or right
         //add another choice option
         //the old king boss fight(final boss) next
