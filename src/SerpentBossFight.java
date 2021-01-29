@@ -21,7 +21,8 @@ public class SerpentBossFight {
             System.out.println(1 + ": Use the axe again");
            int choice2 = Choice.nextInt();
             if(choice2 == 1){
-                System.out.println("You beat him to death");
+                System.out.println("You beat him to death, as you were beating him he seemed to regurgitate something out of his mouth.");
+                System.out.println("You pick up the pouch he dropped from his mouth and opened it.");
                 System.out.println("You collected a pouch of explosives");
             }else if(choice2 == 2){
                 System.out.println("He grabs the axe mid swing and kills you!!");
