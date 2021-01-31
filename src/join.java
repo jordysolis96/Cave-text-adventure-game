@@ -14,6 +14,7 @@ public class join {
             endchoice();
         }else if(choice == 2){
             System.out.println("The twin princes:I see, a poor choice you have made...");
+            System.out.println("We can only assume you wish to challenge father for the throne.");
         }
     }
     public static void endchoice(){
