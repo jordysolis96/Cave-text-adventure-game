@@ -34,7 +34,7 @@ public class SerpentBossFight {
             System.out.println("Game over!");
             respawn();
         }else if(choice == 3){
-            System.out.println("The knife does nothing to the large serpent...");
+            System.out.println("The knife does nothing to the large serpent... your knife is also stuck in the serpent");
             System.out.println("It smacks you with it's tail and you splatter on the wall to your death!");
             System.out.println("Game over!");
             respawn();
@@ -43,11 +43,11 @@ public class SerpentBossFight {
             System.out.println("Game over");
             respawn();
         }else if(choice == 5){
-            System.out.println("The Serpent crushes you to death");
+            System.out.println("The Serpent lifts its tail and crushes you to death");
             System.out.println("Game Over");
             respawn();
         }else if(choice == 6){
-            System.out.println("You use the staff and to your luck it burns the Serpent!");
+            System.out.println("You use the staff and to your luck it burns the Serpent with a powerful arc arrow!");
             System.out.println("You collected a pouch of explosives.");
         }else if(choice == 7){
             System.out.println("The rope won't work...");
