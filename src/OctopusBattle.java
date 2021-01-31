@@ -17,19 +17,19 @@ public class OctopusBattle {
             System.out.println("Game over!");
             respawn();
         }else if(choice == 2){
-            System.out.println("You stab the octopus to death!");
+            System.out.println("The octopus tries to attack you but you stab the octopus to death!");
             System.out.println("Congratulations, you beat the boss!");
         }else if(choice == 3){
-            System.out.println("That won't work here...");
+            System.out.println("That won't work here... try something else");
             Octupus();
         }else if(choice == 4){
-            System.out.println("The dagger chops the octopus! It retreats...");
+            System.out.println("The dagger chops one the tentacles of the octopus! It retreats... you won't catch it, but you won't have to fight it either.");
             System.out.println("You beat the boss! Congratulations");
         }else if(choice == 5){
             System.out.println("You can't use that here...");
             Octupus();
         }else if(choice == 6){
-            System.out.println("The sword takes too long to swing under water... You got choked to death!");
+            System.out.println("The sword takes too long to swing under water... the octopus wraps its tentacle around you and chokes you to death!");
             System.out.println("Game over!");
             respawn();
         }else{
