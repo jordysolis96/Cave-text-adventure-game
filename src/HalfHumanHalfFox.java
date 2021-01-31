@@ -29,6 +29,8 @@ public class HalfHumanHalfFox {
             System.out.println("You try the long ranged attack and it works!");
             System.out.println("The magic staff releases a soul arrow and goes straight through the fox!");
             System.out.println("The fox reverts back into a human completely and you notice a pouch of berries...");
+            System.out.println("The fox human: Take care of these berries and don't give to anyone!");
+            System.out.println("The fox human dies...");
             System.out.println("You collect the pouch of berries.");
             System.out.println();
         }else{
