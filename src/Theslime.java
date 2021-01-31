@@ -14,7 +14,7 @@ public class Theslime {
         System.out.println(8 + ": Use sword");
         int choice = Choice.nextInt();
         if(choice == 1){
-            System.out.println("The axe is absorbed, the slime burns you to death!");
+            System.out.println("The axe dissolves in the slimes body, the slime burns you to death!");
             System.out.println("Game Over!");
             respawn();
         }else if(choice == 2){
@@ -32,7 +32,7 @@ public class Theslime {
             System.out.println("Game Over");
             respawn();
         }else if(choice == 6){
-            System.out.println("Your staff ran out of magic... the slime burns you to death!");
+            System.out.println("Your staff ran out of magic... the slime suffocates you to death!");
             System.out.println("Game over!");
             respawn();
         }else if(choice == 7){
