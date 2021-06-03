@@ -7,7 +7,7 @@ public class Cave {
     public static void game() {
         Scanner decision = new Scanner(System.in);
         System.out.println("BOOM!!!");
-        System.out.println(".......");
+        System.out.println(".........");
         System.out.println("The airplane you were riding has suddenly crashed into a cave...");
         System.out.println("The cave ceiling must be really narrow to break the roof of the cave.");
         System.out.println("the roof it to high for you to climb out of the cave...");
