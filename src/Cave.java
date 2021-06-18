@@ -9,7 +9,7 @@ public class Cave {
         System.out.println("BOOM!!!");
         System.out.println(".....");
         System.out.println("The airplane you were riding has suddenly crashed into a cave...");
-        System.out.println("The cave ceiling must be really narrow to break the roof of the cave.");
+        System.out.println("The cave ceiling must be really brittle to break the roof of the cave.");
         System.out.println("the roof it to high for you to climb out of the cave...");
         System.out.println("Everyone appears to have died in the crash and you're very injured.");
         System.out.println("There are some tools and open suit cases on the floor that got out the plane when it crashed.");
